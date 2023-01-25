@@ -25,7 +25,7 @@ open class Book{
         try{
             actualPage = pages[pages.indexOf(actualPage) - 3]
         }catch(e: ArrayIndexOutOfBoundsException){
-            println("Ende des Buches erreicht!\n")
+            println("Anfang des Buches erreicht!\n")
         }
     }
 }
